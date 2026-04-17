@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>TaskFlow - To-Do List</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>TaskFlow</h1>
+      <p class="subtitle">Stay organized, get things done</p>
+    </header>
+
+    <div class="input-area">
+      <input type="text" id="taskInput" placeholder="What needs to be done?" autocomplete="off"/>
+      <button id="addBtn">Add Task</button>
+    </div>
+
+    <div class="stats">
+      <span id="totalTasks">0 tasks</span>
+      <span id="completedTasks">0 completed</span>
+    </div>
+
+    <div class="todo-list" id="todoList">
+      <!-- Tasks will be added here by JavaScript -->
+    </div>
+
+    <div class="footer">
+      <small>Made with ❤️ using HTML, CSS & JavaScript</small>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
