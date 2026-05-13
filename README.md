@@ -2,11 +2,11 @@
 
 A clean, modern, and responsive to-do list web application built with **HTML, CSS, and JavaScript**. Tasks are saved automatically in your browser using `localStorage`.
 
-## ✨ Features
+## ✨ Features 
 
-- ✅ Add new tasks quickly 
+- ✅ Add new tasks quickly  
 - ✅ Mark tasks as completed
-- ✅ Delete individual tasks
+- ✅ Delete individual tasks 
 - ✅ Real-time task statistics (Total & Completed) 
 - ✅ Beautiful, modern UI with smooth animations
 - ✅ Fully responsive design (works great on mobile) 
